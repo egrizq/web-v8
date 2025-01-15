@@ -23,7 +23,7 @@ nav > div {
   flex-direction: row;
   gap: 25px;
   width: 50%;
-  font-size: 1.35rem;
+  font-size: 1.25rem;
   border-bottom: 1px solid #ccc6c6;
   padding-bottom: 20px;
 }
@@ -107,4 +107,8 @@ ul {
   text-decoration-color: rgb(245, 202, 6);
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
+}
+
+.debug {
+  border: 1px solid black;
 }
