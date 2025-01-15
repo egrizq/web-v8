@@ -74,12 +74,43 @@ footer {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #606060;
 }
 
 ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.work-container {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.work-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.work-detail {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.work-time {
+  width: 25%;
+}
+
+.work-title {
+  font-size: 18px;
+}
+
+.work-point {
+  padding-left: 20px;
 }
 
 .project {
