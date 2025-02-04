@@ -39,12 +39,17 @@ main {
   gap: 30px;
 }
 
-article {
+.article-main {
   display: flex;
   flex-direction: column;
   width: 50%;
-  /* border: solid 1px black; */
   gap: 20px;
+}
+
+.article-blog {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .underline {
@@ -67,6 +72,7 @@ article {
 
 .title {
   font-size: 20px;
+  font-weight: 500;
 }
 
 footer {
@@ -110,7 +116,12 @@ ul {
 }
 
 .work-point {
+  font-size: 15px;
   padding-left: 20px;
+}
+
+.work-key {
+  font-size: 15px;
 }
 
 .project {
@@ -123,4 +134,31 @@ ul {
 
 .debug {
   border: 1px solid black;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: 1px solid #ccc6c6;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.project-section > span:hover:first-child {
+  text-decoration: underline;
+  text-decoration-color: rgb(245, 202, 6);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+.project-title {
+  font-size: large;
+}
+
+.project-desc {
+  font-size: 15px;
+  color: rgb(82, 82, 91);
 }
