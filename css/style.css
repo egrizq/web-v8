@@ -44,21 +44,6 @@ main {
   gap: 30px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 767px) {
-  .home-nav {
-    color: red;
-  }
-
-  nav {
-    width: 80%;
-  }
-
-  .article-main {
-    width: 100%;
-    border: black solid 1px;
-  }
-}
-
 .article-main {
   color: #1f1f1f;
   display: flex;
@@ -196,5 +181,53 @@ ul {
 
 .project-desc {
   font-size: 15px;
-  color: rgb(82, 82, 91);
+  color: #292929;
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  nav > div {
+    width: 90%;
+    font-size: 14px;
+    justify-items: center;
+    padding-bottom: 10px;
+  }
+
+  .underline {
+    line-height: 1.6;
+  }
+
+  .project-desc {
+    font-size: 11px;
+  }
+
+  .article-main,
+  .article-blog {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .title,
+  .work-title,
+  .project-title {
+    font-size: 13px;
+  }
+
+  .work-point,
+  .work-key {
+    font-size: 12px;
+  }
+
+  .work-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .box {
+    gap: 10px;
+  }
+
+  footer {
+    padding-top: 0px;
+    font-size: 12px;
+  }
 }
