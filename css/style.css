@@ -208,7 +208,8 @@ ul {
 
   .title,
   .work-title,
-  .project-title {
+  .project-title,
+  .home-nav {
     font-size: 13px;
   }
 
